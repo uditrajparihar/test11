@@ -1,0 +1,7 @@
+- hosts:
+  tasks:
+    - name: "Installing Httpd "
+      package:
+           name: "httpd"
+           state: present
+            
